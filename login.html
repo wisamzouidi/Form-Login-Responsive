@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Login By Wisam Zouidi</title>
+    <!--Bootstrap Framework-->
+    <link rel="stylesheet" href="resources/css/bootstrap.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+      <div class="text-center mt-4">
+      <h4>Form Login By Wisam Zouidi</h4>
+      <p>Passwords should be securely hashed or encrypted before being stored in the database
+      to prevent unauthorized access in case of a data breach.</p>
+      </div>
+    <form class="mt-4" action="" method="post">
+        <div class="mb-3 mt-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" name="email">
+        </div>
+        <div class="mb-3">
+          <label for="pwd" class="form-label">Password:</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter your password" name="password">
+        </div>
+        <div class="form-check mb-3">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary col-12">Submit</button>
+      </form>
+    </div>
+    <!-- Bootstrap JavaScript -->
+    <script src="resources/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
